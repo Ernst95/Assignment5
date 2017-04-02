@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AbstractFactory" />
+        <module name="Adapter" />
+        <module name="Bridge" />
+        <module name="ChainOfResponsibility" />
+        <module name="Prototype" />
+        <module name="Proxy" />
+        <module name="Singleton" />
+        <module name="Visitor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AbstractFactory" target="1.5" />
+      <module name="Adapter" target="1.5" />
+      <module name="Assignment5" target="1.5" />
+      <module name="Bridge" target="1.5" />
+      <module name="ChainOfResponsibility" target="1.5" />
+      <module name="Prototype" target="1.5" />
+      <module name="Proxy" target="1.5" />
+      <module name="Singleton" target="1.5" />
+      <module name="Visitor" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

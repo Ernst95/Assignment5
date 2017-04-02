@@ -8,9 +8,10 @@ public class Interior implements CarPart{
     private String interiorType;
     private double interiorPrice;
 
-    public Interior()
+    public Interior(String interiorType, double interiorPrice)
     {
-
+        this.interiorType = interiorType;
+        this.interiorPrice = interiorPrice;
     }
 
     public void accept(CarPartVisitor carPartVisitor)

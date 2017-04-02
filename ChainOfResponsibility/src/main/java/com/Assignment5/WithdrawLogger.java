@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class WithdrawLogger extends TransactionLogger{
 
+    public WithdrawLogger()
+    {
+
+    }
+
     public WithdrawLogger(int process)
     {
         this.process = process;

@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class TallHeightStrategy implements Strategy{
 
+    public TallHeightStrategy()
+    {
+
+    }
+
     public boolean checkHeight(double heightInC)
     {
         if((heightInC >= 161) && (heightInC <= 300))

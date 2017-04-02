@@ -8,9 +8,10 @@ public class Chassis implements CarPart{
     private String chassisWeight;
     private double chassisPrice;
 
-    public Chassis()
+    public Chassis(String chassisWeight, double chassisPrice)
     {
-
+        this.chassisWeight = chassisWeight;
+        this.chassisPrice = chassisPrice;
     }
 
     public void accept(CarPartVisitor carPartVisitor)

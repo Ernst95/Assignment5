@@ -9,7 +9,7 @@ public class Car implements CarPart {
 
     public Car()
     {
-        parts = new CarPart[] {new Engine(), new Chassis(), new Interior()};
+        parts = new CarPart[] {new Engine("1300",7000), new Chassis("1 ton",15000), new Interior("Leather", 8000)};
     }
 
     public void accept(CarPartVisitor carPartVisitor)

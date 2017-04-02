@@ -7,10 +7,10 @@ public class DatabaseConnection {
 
     private static DatabaseConnection databaseC = null;
 
-    private DatabaseConnection()
+    /*public DatabaseConnection()
     {
 
-    }
+    }*/
 
     public static DatabaseConnection getInstance()
     {
@@ -21,8 +21,7 @@ public class DatabaseConnection {
         return databaseC;
     }
 
-    public String connectMessage()
-    {
-        return "Database connection successful...";
+    public void connectMessage() {
+        System.out.println("Database connection successful...");
     }
 }

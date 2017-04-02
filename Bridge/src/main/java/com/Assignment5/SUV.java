@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class SUV extends Car{
 
+    public SUV()
+    {
+
+    }
+
     public SUV(Chassis chassis)
     {
         this.chassis = chassis;

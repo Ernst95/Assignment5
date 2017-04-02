@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class BalanceLogger extends TransactionLogger{
 
+    public BalanceLogger()
+    {
+
+    }
+
     public BalanceLogger(int process)
     {
         this.process = process;

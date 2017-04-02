@@ -8,9 +8,10 @@ public class Engine implements CarPart{
     private String engineSize;
     private double enginePrice;
 
-    public Engine()
+    public Engine(String engineSize, double enginePrice)
     {
-
+        this.engineSize = engineSize;
+        this.enginePrice = enginePrice;
     }
 
     public void accept(CarPartVisitor carPartVisitor)

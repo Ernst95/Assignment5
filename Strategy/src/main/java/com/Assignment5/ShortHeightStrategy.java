@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class ShortHeightStrategy implements Strategy{
 
+    public ShortHeightStrategy()
+    {
+
+    }
+
     public boolean checkHeight(double heightInC)
     {
         if((heightInC >= 0) && (heightInC <= 160))

@@ -27,11 +27,11 @@ public class HeightObjectReporter implements Height{
         heightReporter.setHeight(fToM(heightInF));
     }
 
-    private double fToM(double f) {
+    protected double fToM(double f) {
         return (f / 3.28084);
     }
 
-    private double mToF(double m) {
+    protected double mToF(double m) {
         return (m * 3.28084);
     }
 

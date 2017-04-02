@@ -8,6 +8,11 @@ public class Context {
     double heightInC;
     Strategy strategy;
 
+    public Context()
+    {
+
+    }
+
     public Context(double heightInC, Strategy strategy)
     {
         this.heightInC = heightInC;

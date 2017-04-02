@@ -3,6 +3,8 @@ package com.Assignment5;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.junit.Assert.*;
 
@@ -11,9 +13,12 @@ import static org.junit.Assert.*;
  */
 public class DatabaseConnectionTest {
 
+    private DatabaseConnection db;
+
     @Before
     public void setUp() throws Exception {
-        System.out.println("In Before...");
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+        db = (DatabaseConnection)ctx.getBean("database");
     }
 
     @After
@@ -22,15 +27,8 @@ public class DatabaseConnectionTest {
     }
 
     @Test
-    public void testConnectMessage() throws Exception {
-        DatabaseConnection databaseC = DatabaseConnection.getInstance();
-        assertEquals("Database connection successful...", databaseC.connectMessage());
-    }
-
-    @Test
     public void testNotNull() throws Exception {
-        DatabaseConnection databaseC = DatabaseConnection.getInstance();
-        assertNotNull(databaseC);
+        assertNotNull(db);
     }
 
 }

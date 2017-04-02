@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class PinLogger extends TransactionLogger{
 
+    public PinLogger()
+    {
+
+    }
+
     public PinLogger(int process)
     {
         this.process = process;

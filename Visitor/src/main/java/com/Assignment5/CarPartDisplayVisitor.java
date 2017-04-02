@@ -5,6 +5,11 @@ package com.Assignment5;
  */
 public class CarPartDisplayVisitor implements CarPartVisitor {
 
+    public CarPartDisplayVisitor()
+    {
+
+    }
+
     public void visit(Car car) {
         System.out.println("Displaying Car.");
     }

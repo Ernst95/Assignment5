@@ -13,6 +13,7 @@
         <module name="Prototype" />
         <module name="Proxy" />
         <module name="Singleton" />
+        <module name="Strategy" />
         <module name="Visitor" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="Prototype" target="1.5" />
       <module name="Proxy" target="1.5" />
       <module name="Singleton" target="1.5" />
+      <module name="Strategy" target="1.5" />
       <module name="Visitor" target="1.5" />
     </bytecodeTargetLevel>
   </component>

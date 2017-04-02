@@ -5,7 +5,7 @@ package com.Assignment5;
  */
 public interface CarPartVisitor
 {
-    public void visit(Car computer);
+    public void visit(Car car);
 
     public void visit(Engine engine);
 
